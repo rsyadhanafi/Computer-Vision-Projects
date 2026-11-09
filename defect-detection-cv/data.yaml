@@ -1,0 +1,14 @@
+# Main path Datasets
+path: ./datasets/casting_data/casting_data
+
+# Subfolder path for training & validation/testing
+train: train
+val: test
+
+# Jumlah class yang akan di detect
+nc: 2
+
+# Class label sesuai nama folder:
+names:
+  0: def_front
+  1: ok_front
